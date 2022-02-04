@@ -13,6 +13,7 @@
     <header>
         <h1>GEOMETRIX </h1>
     </header>
+    <!-- Calculadora de cuadrados-->
     <section>
         <h2>Calcula el area y perimetro del cuadrado</h2>
         <form>
@@ -22,6 +23,27 @@
             <input id="InputCuadrado" type="number" />
             <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
             <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+        </form>
+    </section>
+
+    <!-- Calculadora de Triangulos-->
+    <section>
+        <h2>Calcula el area y perimetro de un tirangulo </h2>
+        <form>
+            <label>Inserta el lado 1 </label>
+            <input id="InputLado1" type="number" />
+            <br />
+            <label>Inserta el lado 2 </label>
+            <input id="InputLado2" type="number" />
+            <br />
+            <label>Inserta la base </label>
+            <input id="InputBase" type="number" />
+            <br />
+            <label>Inserta la altura </label>
+            <input id="InputAltura" type="number" />
+            <br />
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcula el perimetro del Triangulo</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcula el area del triangulo</button>
         </form>
     </section>
 
